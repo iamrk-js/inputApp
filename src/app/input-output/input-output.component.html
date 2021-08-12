@@ -1,0 +1,10 @@
+<input type="text" name="" class="form-control" [(ngModel)] = "valueContainer">
+<br>
+<input type="button" value="Click" class="btn btn-primary" (click)="addInfo()">
+<br>
+<hr>
+<ul class="list-group">
+    <li class="list-group-item" *ngFor="let item of infoArray">
+        {{item}}
+    </li>
+</ul>
